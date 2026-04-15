@@ -1,0 +1,485 @@
+/* =========================
+   ABOUT SECTION
+========================= */
+#Aboutmessage{
+    padding: 100px 0 80px;
+    background: linear-gradient(180deg, #fff8fa 0%, #ffffff 100%);
+}
+
+#Aboutmessage h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+#Aboutmessage h3::after{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(135deg, #7c3848, #c06a83);
+    display: block;
+    margin: 14px auto 0;
+    border-radius: 50px;
+}
+
+#Aboutmessage .row .col-12:first-child p{
+    max-width: 850px;
+    margin: 20px auto 0;
+    color: #6b7280;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+#Aboutmessage .secondtext{
+    margin-top: 60px;
+}
+
+#Aboutmessage .secondtext h5{
+    color: #7c3848;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+} 
+
+#Aboutmessage .secondtext hr{
+    background: linear-gradient(135deg, #7c3848, #c06a83);
+    width: 130px;
+    height: 4px;
+    border: none;
+    opacity: 1;
+    margin: 18px auto 24px;
+    border-radius: 50px;
+}
+
+#Aboutmessage .secondtext h2{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+    line-height: 1.3;
+}
+
+#Aboutmessage .secondtext p{
+    max-width: 900px;
+    margin: 0 auto;
+    color: #6b7280;
+    font-size: 1.05rem;
+    line-height: 1.9;
+}
+
+/* =========================
+   LEADERSHIP SECTION
+========================= */
+.leadership{
+padding: 50px 0;
+}
+    #Aboutmessage{
+    box-sizing: border-box;
+    padding: 100px;
+    padding-top: 120px;
+}
+#Aboutmessage .secondtext h5{
+    color: #7c3848;
+} 
+#Aboutmessage .secondtext hr{
+    background-color: #7c3848;
+    width: 200px;
+    font-size: 20px;
+    margin: 20px auto;
+}
+#Aboutmessage .secondtext h2{
+    margin-bottom: 20px;
+}
+.LeadershipBox .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.LeadershipBox .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.drbox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: #f8fafc;
+}
+
+.LeadershipBox{
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    transition: all 0.4s ease;
+}
+
+.LeadershipBox:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(124, 56, 72, 0.12);
+}
+
+.leadershipTag{
+    display: inline-block;
+    background: rgba(124, 56, 72, 0.1);
+    color: #7c3848;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin-bottom: 18px;
+}
+
+.LeadershipBox h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #111827;
+    line-height: 1.4;
+    margin-bottom: 18px;
+}
+
+.LeadershipBox > p{
+    color: #6b7280;
+    font-size: 1rem;
+    line-height: 1.9;
+    margin-bottom: 28px;
+}
+
+.drbox{
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 22px;
+    background: #fff8fa;
+    border: 1px solid rgba(124, 56, 72, 0.08);
+    border-radius: 18px;
+}
+
+.LeadershipBox .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 4px solid #ffffff;
+    box-shadow: 0 8px 20px rgba(124, 56, 72, 0.15);
+}
+
+.LeadershipBox .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.drbox .text h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #7c3848;
+    margin-bottom: 4px;
+}
+
+.drbox .text span{
+    display: inline-block;
+    color: #7c3848;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.drbox .text p{
+    margin: 0;
+    color: #1f2937;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+/* =================== foundation ==================== */
+.foundationtext h6{
+    color: #7c3848cd;
+}
+.foundationtext hr{
+    width: 150px;
+    color: #7c3848;
+    margin:20px auto;
+}
+.foundationtext h4{
+    color: #7c3848;
+}
+.foundation .iiebox{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    transition: transform 0.4s ease, color 0.4s ease;
+    border: 2px solid #7c3848;
+}
+
+.foundation .iiebox::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(to top, #1e3a8a, #0ea5e9);
+    z-index: -1;
+    transition: height 0.5s ease;
+    border-radius: 12px;
+}
+
+.foundation .iiebox:hover::before{
+    height: 100%;
+}
+
+.foundation .iiebox:hover{
+    transform: translateY(-8px);
+    color: #fff;
+}
+
+.foundation .iiebox h1{
+    color: #7c3848;
+}
+
+/* leadership philosophy */
+.leadership-philosophy{
+    padding: 80px 0;
+    background: linear-gradient(180deg, #f8fbff, #eef5ff);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.leadership-philosophy .container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0ea5e9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.section-title h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.section-title p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #6b7280;
+}
+
+.philosophy-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.philosophy-card{
+    position: relative;
+    background: #ffffff;
+    padding: 35px 25px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+.philosophy-card::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(to top, #1e3a8a, #0ea5e9);
+    z-index: -1;
+    transition: height 0.5s ease;
+    border-radius: 18px;
+}
+
+.philosophy-card:hover::before{
+    height: 100%;
+}
+
+.philosophy-card:hover{
+    transform: translateY(-10px);
+}
+
+.card-number{
+    font-size: 52px;
+    font-weight: 800;
+    color:#1e3a8a;
+    margin-bottom: 15px;
+    transition: color 0.4s ease;
+}
+
+.philosophy-card h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 15px;
+    transition: color 0.4s ease;
+}
+
+.philosophy-card p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #1e3a8a;
+    transition: color 0.4s ease;
+}
+
+.philosophy-card:hover .card-number{
+    color: rgba(255, 255, 255, 0.756);
+}
+
+.philosophy-card:hover h3,
+.philosophy-card:hover p{
+    color: #ffffff;
+}
+.philosophy-icon{
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.philosophy-card:hover .philosophy-icon{
+    transform: scale(1.08);
+    
+}
+/* Responsive */
+@media (max-width: 991px){
+    .philosophy-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-title h2{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 767px){
+    .philosophy-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2{
+        font-size: 28px;
+    }
+
+    .philosophy-card{
+        padding: 28px 20px;
+    }
+}
+
+
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 991px){
+    #Aboutmessage{
+        padding: 80px 0 60px;
+    }
+
+    #Aboutmessage h3{
+        font-size: 2rem;
+    }
+
+    #Aboutmessage .secondtext h2{
+        font-size: 2rem;
+    }
+
+    .LeadershipBox{
+        padding: 30px;
+    }
+
+    .LeadershipBox h3{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 767px){
+    #Aboutmessage h3{
+        font-size: 1.8rem;
+    }
+
+    #Aboutmessage .secondtext{
+        margin-top: 40px;
+    }
+
+    #Aboutmessage .secondtext h2{
+        font-size: 1.6rem;
+    }
+
+    #Aboutmessage .row .col-12:first-child p,
+    #Aboutmessage .secondtext p{
+        font-size: 0.95rem;
+        line-height: 1.8;
+    }
+
+    .LeadershipBox{
+        padding: 24px;
+        border-radius: 18px;
+    }
+
+    .LeadershipBox h3{
+        font-size: 1.4rem;
+    }
+
+    .drbox{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 18px;
+    }
+
+    .LeadershipBox .image{
+        width: 90px;
+        height: 90px;
+    }
+
+    .drbox .text h4{
+        font-size: 1.1rem;
+    }
+
+    .drbox .text p{
+        font-size: 0.92rem;
+    }
+}

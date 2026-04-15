@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCollege</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- index.css -->
+    <link rel="stylesheet" href="/cssFolder/index.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <div id="header">
+        <!-- ========================== navbar ====================== -->
+        <div class="container-fluid navContainer" style="background-color: #7c3848;">
+            <div class="container">
+
+                <!-- Navbar Start -->
+                <nav class="navbar navbar-expand-lg navbar-dark px-3 py-3">
+                    <div class="container-fluid">
+
+                        <a class="navbar-brand fw-bold" href="index.html">MyCollege</a>
+
+                        <div class="d-none d-lg-flex mx-auto">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="index.html">Home</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        About
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="about.html">About</a></li>
+                                        <li><a class="dropdown-item" href="academic.html">Academic</a></li>
+                                        <li><a class="dropdown-item" href="admissions.html">Admissions</a></li>
+                                    </ul>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link text-white" href="courses.html">Course</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link text-white" href="services.html">Services</a>
+                                </li> -->
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="navbar-toggler d-lg-none border-0 shadow-none ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end text-bg-dark d-lg-none" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="mobileMenuLabel">MySchool Menu</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item mb-2">
+                                        <a class="nav-link text-white" href="index.html">Home</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown mb-2">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            About
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          
+                                             <li><a class="dropdown-item" href="about.html">About</a></li>
+                                             <li><a class="dropdown-item" href="academic.html">Academic</a></li>
+                                              <li><a class="dropdown-item" href="admissions.html">Admissions</a></li>
+                                         
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                    <a class="nav-link text-white" href="courses.html">Course</a>
+                                </li>
+
+                                    <li class="nav-item mb-2">
+                                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+                <!-- Navbar End -->
+
+            </div>
+        </div>
+
+        <!--================ Shaping Minds for Tomorrow's World =============-->
+        <div class="container-fluid" id="shappingMindfluid">
+            <div class="container" id="shappingMind">
+                <div class="row">
+                    <div class="col-md-2"></div>
+
+                    <div class="col-lg-8 col-12">
+                        <div class="text">
+                            <h1>Shaping Minds for <br> Tomorrow's World</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis magna vel dolor mattis hendrerit.
+                                Vestibulum sodales dignissim ipsum id commodo.
+                            </p>
+
+                            <div class="apply-campus">
+                                <button class="applynow">
+                                    <h6>APPLY NOW</h6>
+                                </button>
+                                <button class="campusTour">
+                                    <h6>CAMPUS TOUR</h6>
+                                </button>
+                            </div>
+
+                            <div class="notice">
+                                <button>NEW</button>
+                                <p>Fall 2025 Applications Open - Early Decision Deadline December 15</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= Graduate Student Cards ================= -->
+    <div class="container-fluid" id="GraduateCardContainer">
+        <div class="container">
+            <div class="row gy-4">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="GraduateCard">
+                        <div class="icon">
+                            <i class="bi bi-mortarboard-fill"></i>
+                        </div>
+                        <h5>98% Graduate Success</h5>
+                        <p>Our students achieve outstanding academic results and career outcomes.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="GraduateCard">
+                        <div class="icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h5>16:1 Student-Faculty Ratio</h5>
+                        <p>Personalized attention and strong mentorship in every learning journey.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="GraduateCard">
+                        <div class="icon">
+                            <i class="bi bi-globe-americas"></i>
+                        </div>
+                        <h5>Global Community</h5>
+                        <p>Join a diverse and inclusive environment with worldwide opportunities.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- ================= Open Campus ====================== -->
+    <div class="container-fluid" id="opencampusContainer">
+  <div class="container">
+    <div class="row opencampusContainerrow gy-4">
+      
+      <div class="col-lg-2">
+        <div class="date">
+          <h5>NOV</h5>
+          <h3>15</h3>
+        </div>
+      </div>
+      
+      <div class="col-lg-8">
+        <div class="openCampus">
+          <h3>Admission Information Session</h3>
+          <p>Join our expert team to explore admission requirements, scholarship opportunities, and student life on campus.</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-2">
+        <div class="register">
+          <h5>Join Now</h5>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    </div>
+
+    <!-- ================= Empowering Minds, Shaping Futures ================ -->
+     <div class="container-fluid" id="EmpoweringMinds">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-12 col-lg-6">
+        <div>
+          <h3>Excellence in Education, Excellence in Life</h3>
+          <p>For decades, we have proudly guided students toward academic success, personal growth, and future leadership. Our commitment to quality education combines experienced faculty, innovative learning strategies, and a nurturing environment where every student is encouraged to achieve more.
+            <div class="studentData">
+              <div class="row gy-4">
+                <div class="col-md-4 col-6">
+                  <h2>12,500+</h2>
+                  <p>Students Learning</p>
+                </div>
+                <div class="col-md-4 col-6">
+                  <h2>97%</h2>
+                  <p>Academic Success</p>
+                </div>
+                <div class="col-md-4 col-6">
+                  <h2>220+</h2>
+                  <p>Skilled Educators</p>
+                </div>
+              </div>
+            </div>
+            <div class="ourmission">
+              <p>"We believe in shaping confident learners, responsible citizens, and future-ready leaders through knowledge, discipline, and innovation."</p>
+            </div>
+            <div class="learnmore">
+              <a href="">Learn More  <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="image">
+          <img src="https://images.pexels.com/photos/31056504/pexels-photo-31056504.jpeg" alt="" srcset="" class="img-fluid">
+          <div class="ourexcellence">
+            <h3>30 +</h3>
+            <h6>Years of Academic Excellence</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     </div>
+
+    <!-- =============== Featured Programs ==================== -->
+<div class="container-fluid" id="featuredprograms">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Featured Programs</h2>
+        <hr>
+        <p>Discover innovative programs that empower students with knowledge, skills, and confidence for tomorrow’s challenges.</p>
+      </div>
+    </div>
+
+    <div class="row align-items-center mt-5">
+      <div class="col-lg-6 col-12">
+        <div>
+          <h2>Academic Pathways Built for Success</h2>
+          <p class="para">From foundational learning to advanced specialization, our programs combine academic excellence, hands-on experience, and personalized support to help every student thrive in a rapidly changing world.</p>
+
+          <div class="studentData">
+            <div class="row gy-4">
+              <div class="col-md-4 col-6">
+                <h2>4,000+</h2>
+                <p>Active Learners</p>
+              </div>
+              <div class="col-md-4 col-6">
+                <h2>96%</h2>
+                <p>Graduate Success</p>
+              </div>
+              <div class="col-md-4 col-6">
+                <h2>180+</h2>
+                <p>Dedicated Faculty</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-12">
+        <div class="image">
+          <img src="https://images.pexels.com/photos/31039052/pexels-photo-31039052.jpeg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====================== Testimonial Section ================== -->
+
+<!-- Custom Swiper Section -->
+<div class="container-fluid mySchoolSliderSection py-5">
+  <div class="container">
+   <div class="row">
+    <div class="col-12 text-center">
+      <h3>Students Facilities</h3>
+    </div>
+   </div>
+    <div class="swiper mySchoolSwiper">
+      <div class="swiper-wrapper mySchoolWrapper">
+
+        <div class="swiper-slide mySchoolSlide">
+          <div class="sliderCard">
+            <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg" class="img-fluid" alt="Slide 1">
+            <h3>Modern Classrooms</h3>
+            <p>Interactive and engaging spaces designed for better learning experiences.</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide mySchoolSlide">
+          <div class="sliderCard">
+            <img src="https://images.pexels.com/photos/159740/library-la-trobe-study-students-159740.jpeg" class="img-fluid" alt="Slide 2">
+            <h3>Smart Library</h3>
+            <p>Access thousands of resources, books, and digital learning materials.</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide mySchoolSlide">
+          <div class="sliderCard">
+            <img src="https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg" class="img-fluid" alt="Slide 3">
+            <h3>Creative Activities</h3>
+            <p>Students grow through sports, arts, events, and leadership opportunities.</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide mySchoolSlide">
+          <div class="sliderCard">
+            <img src="https://images.pexels.com/photos/31290547/pexels-photo-31290547.jpeg" class="img-fluid" alt="Slide 3">
+            <h3>Scholarship Facilities</h3>
+            <p>Students grow through sports, arts, events, and leadership opportunities.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="mySchoolNext"></div>
+      <div class="mySchoolPrev"></div>
+
+      <!-- Pagination -->
+      <div class="mySchoolPagination mt-3"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ==================== Events ========================= -->
+
+<div class="container-fluid" id="eventContainer">
+  <div class="container">
+    
+    <!-- Heading -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Events</h2>
+        <hr>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+    </div>
+
+    <!-- Month & Category -->
+    <div class="row monthcategory gy-4">
+      <div class="col-md-2"></div>
+
+      <div class="col-12 col-md-4">
+        <div>
+          <select name="month" id="month" class="form-select">
+            <option value="">All Months</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div>
+          <select name="category" id="category" class="form-select">
+            <option value="">All Category</option>
+            <option value="Arts">Arts</option>
+            <option value="Sports">Sports</option>
+            <option value="Community">Community</option>
+            <option value="Academic">Academic</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-2"></div>
+    </div>
+
+    <!-- Event Card -->
+    <div class="row">
+      <div class="col-lg-6 col-12">
+        <div class="eventCard">
+          <div class="row mt-5">
+            
+            <div class="col-2 eventleft">
+              <h4>FEB</h4>
+              <h3>15</h3>
+              <h5>2025</h5>
+            </div>
+
+            <div class="col-10">
+              <button class="academic">
+                <p>Academic</p>
+              </button>
+
+              <h4>Science Fair Exhibition</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+
+              <div class="timeAuditorium row">
+                <div class="time col-6">
+                  <p><i class="bi bi-clock"></i> 09:00 AM - 03:00 PM</p>
+                </div>
+                <div class="auditorium col-6">
+                  <p><i class="bi bi-geo-alt"></i> Main Auditorium</p>
+                </div>
+              </div>
+
+              <div class="LearnCalendar">
+                <div class="learnmore">
+                  <button>
+                    <a href="">Learn More</a>
+                  </button>
+                </div>
+
+                <div class="calendar">
+                  <p><i class="bi bi-calendar-plus"></i> Add to calendar</p>
+                </div>
+              </div>
+
+            </div> <!-- col-10 -->
+
+          </div> <!-- row mt-5 -->
+        </div> <!-- eventCard -->
+      </div> <!-- col-lg-6 -->
+
+      <div class="col-lg-6 col-12">
+        <div class="eventCard">
+          <div class="row mt-5">
+            
+            <div class="col-2 eventleft">
+              <h4>FEB</h4>
+              <h3>10</h3>
+              <h5>2025</h5>
+            </div>
+
+            <div class="col-10">
+              <button class="academic">
+                <p>Sports</p>
+              </button>
+
+              <h4>Annual Sports Day</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+
+              <div class="timeAuditorium row">
+                <div class="time col-6">
+                  <p><i class="bi bi-clock"></i> 08:30 AM - 05:00 PM</p>
+                </div>
+                <div class="auditorium col-6">
+                  <p><i class="bi bi-geo-alt"></i> School Playground</p>
+                </div>
+              </div>
+
+              <div class="LearnCalendar">
+                <div class="learnmore">
+                  <button>
+                    <a href="">Learn More</a>
+                  </button>
+                </div>
+
+                <div class="calendar">
+                  <p><i class="bi bi-calendar-plus"></i> Add to calendar</p>
+                </div>
+              </div>
+
+            </div> <!-- col-10 -->
+
+          </div> <!-- row mt-5 -->
+        </div> <!-- eventCard -->
+      </div> <!-- col-lg-6 -->
+
+      <div class="col-lg-6 col-12">
+        <div class="eventCard">
+          <div class="row mt-5">
+            
+            <div class="col-2 eventleft">
+              <h4>FEB</h4>
+              <h3>05</h3>
+              <h5>2025</h5>
+            </div>
+
+            <div class="col-10">
+              <button class="academic">
+                <p>Arts</p>
+              </button>
+
+              <h4>Spring Music Concert</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+
+              <div class="timeAuditorium row">
+                <div class="time col-6">
+                  <p><i class="bi bi-clock"></i> 09:00 AM - 03:00 PM</p>
+                </div>
+                <div class="auditorium col-6">
+                  <p><i class="bi bi-geo-alt"></i> Performing Arts Center</p>
+                </div>
+              </div>
+
+              <div class="LearnCalendar">
+                <div class="learnmore">
+                  <button>
+                    <a href="">Learn More</a>
+                  </button>
+                </div>
+
+                <div class="calendar">
+                  <p><i class="bi bi-calendar-plus"></i> Add to calendar</p>
+                </div>
+              </div>
+
+            </div> <!-- col-10 -->
+
+          </div> <!-- row mt-5 -->
+        </div> <!-- eventCard -->
+      </div> <!-- col-lg-6 -->
+
+      <div class="col-lg-6 col-12">
+        <div class="eventCard">
+          <div class="row mt-5">
+            
+            <div class="col-2 eventleft">
+              <h4>FEB</h4>
+              <h3>25</h3>
+              <h5>2025</h5>
+            </div>
+
+            <div class="col-10">
+              <button class="academic">
+                <p>Community</p>
+              </button>
+
+              <h4>Parent-Teacher Conference</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+
+              <div class="timeAuditorium row">
+                <div class="time col-6">
+                  <p><i class="bi bi-clock"></i> 09:00 AM - 03:00 PM</p>
+                </div>
+                <div class="auditorium col-6">
+                  <p><i class="bi bi-geo-alt"></i> Various Classrooms</p>
+                </div>
+              </div>
+
+              <div class="LearnCalendar">
+                <div class="learnmore">
+                  <button>
+                    <a href="">Learn More</a>
+                  </button>
+                </div>
+
+                <div class="calendar">
+                  <p><i class="bi bi-calendar-plus"></i> Add to calendar</p>
+                </div>
+              </div>
+
+            </div> <!-- col-10 -->
+
+          </div> <!-- row mt-5 -->
+        </div> <!-- eventCard -->
+      </div> <!-- col-lg-6 -->
+    </div> <!-- row -->
+
+    
+
+  </div> <!-- container -->
+</div> <!-- container-fluid -->
+
+
+<footer id="mainFooter">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- About -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="footerBox">
+          <h3>MySchool</h3>
+          <p>
+            Empowering students with quality education, innovation, and values.
+            Our mission is to create a bright future through learning and growth.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="footerBox">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="footerBox">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Admission</a></li>
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Notice Board</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="footerBox">
+          <h4>Contact Info</h4>
+          <p><i class="fa-solid fa-location-dot"></i> Kolkata, India</p>
+          <p><i class="fa-solid fa-phone"></i> +91 8670575329</p>
+          <p><i class="fa-solid fa-envelope"></i> info@myschool.com</p>
+
+          <div class="footerSocial">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="footerBottom">
+      <p>© 2026 MySchool. All Rights Reserved. | Designed by Sanjib Fodikar</p>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+  var mySchoolSlider = new Swiper(".mySchoolSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    pagination: {
+      el: ".mySchoolPagination",
+      clickable: true,
+    },
+
+    navigation: {
+      nextEl: ".mySchoolNext",
+      prevEl: ".mySchoolPrev",
+    },
+
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+
+    breakpoints: {
+      576: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      }
+    }
+  });
+</script>
+</body>
+</html>

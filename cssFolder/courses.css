@@ -1,0 +1,105 @@
+.CourseContainer{
+    padding: 120px 0px;
+    background: linear-gradient(135deg, #eef2f7, #f8fafc); /* soft premium bg */
+}
+
+/* Card */
+.coursebox{
+    box-sizing: border-box;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 14px;
+    transition: all 0.35s ease;
+    border: 1px solid rgba(0,0,0,0.04);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Smooth hover */
+.coursebox:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Top gradient strip */
+.coursebox .firstSection{
+    background: linear-gradient(135deg, #6d2f3f, #b65c6f); /* deeper elegant maroon */
+    padding: 12px;
+    border-radius: 10px;
+}
+
+/* Icon box */
+.coursebox .firstSection .icon{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #078b63;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+
+/* Icon */
+.coursebox .firstSection .icon i{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* Heading */
+.coursebox .firstSection .text h5{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Duration */
+.coursebox .firstSection .text .duration{
+    color: rgba(255,255,255,0.75);
+    font-size: 16px;
+}
+
+/* Content */
+.coursebox .secondSection{
+    padding: 18px 8px;
+}
+
+/* Paragraph */
+.coursebox .secondSection p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* List */
+.course-details{
+    padding-left: 18px;
+    margin-bottom: 12px;
+}
+
+.course-details li{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 4px;
+}
+
+/* Button */
+.read-more-btn{
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 6px;
+    background: #7c3848;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.read-more-btn:hover{
+    background: #5e2835;
+    color: #fff;
+}

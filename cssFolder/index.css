@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://builder.bootstrapmade.com/static/img/education/showcase-1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.navContainer{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/* ================= Hero Section ================= */
+
+#shappingMindfluid{
+    background-color:rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#shappingMind .text{
+    text-align: center;
+    margin-top: 25%;
+}
+
+#shappingMind .text h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#shappingMind .text p{
+    color: #e2e8f0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Buttons */
+.apply-campus{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.apply-campus button{
+    width: 190px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+}
+
+.apply-campus button h6{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.apply-campus button:first-child{
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    color: #fff;
+    box-shadow: rgba(14, 165, 233, 0.35) 0px 8px 20px;
+}
+
+.apply-campus button:first-child:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(14, 165, 233, 0.45) 0px 12px 24px;
+}
+
+.apply-campus button:last-child{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.apply-campus button:last-child:hover{
+    background-color: #ffffff;
+    color: #1e3a8a;
+}
+
+/* Notice */
+.notice{
+    display: flex;
+    gap: 12px;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    background: rgba(14, 165, 233, 0.18);
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+}
+
+.notice button{
+    width: 80px;
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    box-shadow: rgba(245, 158, 11, 0.35) 0px 5px 15px;
+}
+
+#shappingMind .notice p{
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+/* ================= Graduate Card ================= */
+
+#GraduateCardContainer{
+    box-sizing: border-box;
+    padding: 50px 10px;
+    background-color: #f8fafc;
+}
+
+.GraduateCard{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 8px 24px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    text-align: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.GraduateCard:hover{
+    transform: translateY(-15px);
+    box-shadow: rgba(14, 165, 233, 0.18) 0px 12px 28px;
+}
+
+.GraduateCard .icon{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.GraduateCard .icon i{
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.GraduateCard h5{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.GraduateCard p{
+    color: #475569;
+}
+
+/* ================= Open Campus ================= */
+
+#opencampusContainer{
+    background-color: #e0f2fe;
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.opencampusContainerrow{
+    align-items: center;
+}
+
+#opencampusContainer .date{
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    box-sizing: border-box;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: rgba(30, 58, 138, 0.25) 0px 8px 20px;
+}
+
+#opencampusContainer .register{
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: rgba(245, 158, 11, 0.25) 0px 8px 20px;
+}
+
+#opencampusContainer .register h5{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+/* ================= Empowering Minds ================= */
+
+#EmpoweringMinds{
+    box-sizing: border-box;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+#EmpoweringMinds h3{
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+#EmpoweringMinds p{
+    color: #475569;
+}
+
+.studentData h2{
+    color: #0ea5e9;
+    font-weight: 700;
+}
+
+.ourmission{
+    border-left: 5px solid #0ea5e9;
+    box-sizing: border-box;
+    padding: 18px;
+    background-color: #f0f9ff;
+    border-radius: 12px;
+}
+
+.ourmission p{
+    margin-bottom: 0px;
+    color: #334155;
+}
+
+#EmpoweringMinds .learnmore{
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    padding: 15px;
+    border-radius: 12px;
+    color: #ffffff;
+    width: 220px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+#EmpoweringMinds .learnmore:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(14, 165, 233, 0.25) 0px 10px 20px;
+}
+
+#EmpoweringMinds .learnmore a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#EmpoweringMinds .image{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 8px 24px;
+    position: relative;
+}
+
+.ourexcellence{
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 12px;
+    border: 3px solid #0ea5e9;
+    width: 220px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+}
+
+.ourexcellence h3{
+    color: #1e3a8a;
+    margin-bottom: 5px;
+}
+
+/* ================= Featured Programs ================= */
+
+#featuredprograms{
+    box-sizing: border-box;
+    padding: 50px 20px;
+    background-color: #f8fafc;
+}
+
+#featuredprograms h2{
+    color: #1e3a8a;
+    font-weight: 700;
+}
+
+#featuredprograms p{
+    color: #475569;
+}
+
+#featuredprograms hr{
+    width: 100px;
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    height: 5px;
+    border: none;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+#featuredprograms .image{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 5px 18px;
+    transition: transform 0.4s ease;
+}
+
+#featuredprograms .image:hover{
+    transform: scale(1.03);
+}
+
+#featuredprograms .para{
+    margin: 25px 0px;
+}
+
+/* ================= Testimonials / Swiper ================= */
+
+.mySchoolSliderSection{
+    background-color: #eef6ff;
+    padding: 50px 0;
+}
+
+.mySchoolSliderSection h3{
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.mySchoolSwiper{
+    padding-bottom: 50px;
+}
+
+.mySchoolSlide{
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 8px 24px;
+    text-align: center;
+    border: 1px solid #dbeafe;
+}
+
+.sliderCard img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.sliderCard h3{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #0ea5e9;
+    font-weight: 700;
+}
+
+.sliderCard p{
+    font-size: 16px;
+    padding: 0 15px 20px;
+    color: #475569;
+}
+
+/* Navigation buttons */
+.mySchoolNext,
+.mySchoolPrev{
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+/* Pagination dots */
+.mySchoolPagination .swiper-pagination-bullet{
+    background: #0ea5e9;
+    opacity: 0.5;
+}
+
+.mySchoolPagination .swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #1e3a8a;
+}
+
+
+/* ==================== Events =========================  */
+#eventContainer{
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#eventContainer h2{
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+#eventContainer hr{
+    width: 100px;
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    height: 5px;
+    border: none;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+#eventContainer .monthcategory{
+    margin-top: 20px;
+}
+
+#eventContainer .monthcategory select{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #0ea5e9;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* ================= Event Card ================= */
+
+.eventCard{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+                rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    
+    background-color: #fff;
+}
+
+.eventCard .row{
+    align-items: stretch;
+}
+
+.eventCard .eventleft{
+    background-color: #7c3848;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.eventCard .eventleft h4{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.eventCard .eventleft h3{
+    margin-bottom: 8px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.eventCard .col-2 h5{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.eventCard .col-10{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.eventCard .col-10 .academic{
+    box-sizing: border-box;
+    padding: 7px 14px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #7c3848;
+}
+
+.eventCard .col-10 .academic p{
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.eventCard .col-10 h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+    font-weight: 700;
+}
+
+.eventCard .col-10 > p{
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* ================= Time & Auditorium ================= */
+
+.timeAuditorium{
+    margin-bottom: 20px;
+}
+
+.timeAuditorium .time p,
+.timeAuditorium .auditorium p{
+    margin-bottom: 0;
+}
+
+.timeAuditorium .time i,
+.auditorium i{
+    color: #7c3848;
+}
+
+/* ================= Learn More & Calendar ================= */
+
+.LearnCalendar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.LearnCalendar .learnmore button{
+    background-color: #1e3a8a;
+    border-radius: 10px;
+    padding: 10px 16px;
+    border: none;
+    outline: none;
+}
+
+.LearnCalendar .learnmore button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.LearnCalendar .calendar p{
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 2px solid #0ea5e9;
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+
+
+#mainFooter{
+    background: #0f172a;
+    color: #fff;
+    padding: 60px 0 20px;
+}
+
+#mainFooter .footerBox h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0ea5e9;
+}
+
+#mainFooter .footerBox h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+
+#mainFooter .footerBox h4::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #0ea5e9;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+#mainFooter .footerBox p{
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+#mainFooter .footerBox ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mainFooter .footerBox ul li{
+    margin-bottom: 12px;
+}
+
+#mainFooter .footerBox ul li a{
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
+
+#mainFooter .footerBox ul li a:hover{
+    color: #0ea5e9;
+    padding-left: 5px;
+}
+
+#mainFooter .footerBox i{
+    color: #0ea5e9;
+    margin-right: 8px;
+}
+
+.footerSocial{
+    margin-top: 20px;
+    display: flex;
+    
+    gap: 12px;
+}
+
+.footerSocial a{
+    width: 40px;
+    height: 40px;
+    background: rgba(14, 165, 233, 0.1);
+    color: #0ea5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.footerSocial a:hover{
+    background: #0ea5e9;
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+.footerBottom{
+    margin-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    margin: 0;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px){
+    #mainFooter{
+        padding: 50px 0 20px;
+        text-align: center;
+    }
+
+    #mainFooter .footerBox h4::after{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerSocial{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* ================= Responsive ================= */
+
+@media only screen and (max-width: 992px){
+    #shappingMind .text{
+        margin-top: 35%;
+    }
+
+    #shappingMind .text h1{
+        font-size: 2.4rem;
+    }
+
+    .notice{
+        width: 95%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ourexcellence{
+        position: static;
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .apply-campus{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apply-campus button{
+        width: 90%;
+    }
+
+    #shappingMind .text{
+        margin-top: 45%;
+    }
+
+    #shappingMind .text h1{
+        font-size: 2rem;
+    }
+
+    #shappingMind .text p{
+        font-size: 16px;
+    }
+
+    .notice{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .notice button{
+        width: 100%;
+    }
+    .eventCard{
+        overflow: hidden;
+    }
+    .eventCard .mt-5{
+        flex-direction: column;
+        
+    }
+
+    .eventCard .eventleft,
+    .eventCard .col-10{
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .eventCard .eventleft{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 15px;
+    }
+
+    .LearnCalendar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .timeAuditorium .time,
+    .timeAuditorium .auditorium{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
